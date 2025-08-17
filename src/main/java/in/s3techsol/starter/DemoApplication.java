@@ -16,12 +16,12 @@ public class DemoApplication {
 	
 	@GetMapping("/")
 	public String sayHellow() {
-		return "Welcome to Docker Practice Sessions";
+		return "Welcome to Jenkins Practice Sessions";
 	}
 		
 	@GetMapping("/welcome/{name}")
     public String welcomeUser(@PathVariable String name) {
-        return "Welcome, " + name + "!";
+        return "Welcome, " + name + "! to Jenkins Pipeline";
     }
 
 }
